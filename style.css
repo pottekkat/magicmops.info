@@ -120,6 +120,10 @@ footer {
     color: #666;
 }
 
+.content a[href^="https://wa.me/"] {
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     main {
         padding: 1.5rem;
