@@ -56,6 +56,25 @@ h1 {
     max-width: 600px;
 }
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    max-width: 700px;
+    margin-bottom: 0.5rem;
+}
+
+.service-tag {
+    background-color: #f0f8fa;
+    color: #4bc1d8;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
 .whatsapp-btn {
     display: flex;
     align-items: center;
@@ -139,10 +158,20 @@ footer {
         font-size: 2rem;
     }
 
+    .services {
+        gap: 0.5rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .service-tag {
+        padding: 0.4rem 0.75rem;
+        font-size: 0.75rem;
+    }
+
     .description {
         font-size: 1rem;
     }
-    
+
     .whatsapp-btn {
         font-size: 1.125rem;
         padding: 0.875rem 2rem;
